@@ -1,53 +1,77 @@
 # http://dgmstuart.github.io/blog/2015/03/27/execute-ruby-code-inline-in-the-editor/
 # Alt + Shift + L
-# Length Method and Size Method
+# 1. Length Method and Size Method
 name = "Ruby"
-puts "Length of name is #{name.length}" # => 
-puts "Size of name is #{name.size}"
-puts "Class of name is #{name.class}"
+puts "================================================================="
+puts "Length of string"
+puts "================================================================="
+puts "Length of #{name} is #{name.length}" # => 
+puts "Size of #{name} is #{name.size}"
+puts "Class of #{name} is #{name.class}"
 
 puts
+puts "================================================================="
+puts "Length of Empty String"
+puts "================================================================="
 empty = ""
 puts "Length of empty is #{empty.length}"
 puts "Size of empty is #{empty.size}"
 puts "Class of empty is #{empty.class}"
 
-# String Conversion
+# 2. String Conversion
 puts
+puts "================================================================="
+puts "String Type Conversion"
+puts "================================================================="
 puts "class of 5 is #{5.class}"
-puts "class of 5 is #{5.to_s.class}"
+puts "class of 5.to_s is #{5.to_s.class}"
 
 
-# Multi Line Strings
+# 3. Multi Line Strings
 puts
+puts "================================================================="
+puts "Multi Line String"
+puts "================================================================="
 words = <<PKS
-asdfnjk asdfasd
-f asd
-f
-asdf 
-asdfsdafasd     sdafsaf
+This 
+is a 
+Multiline
+string
 PKS
 
 puts words
 
-# Single and Double Quotes
+# 4. Single and Double Quotes
 puts
+puts "================================================================="
+puts "Single and Double Quotes Usage"
+puts "================================================================="
 puts 'Sun rises in the "East"'
 puts "Sun rises in the 'East'"
 
 # Interpolation only works with Double Quotes
-# Escape characters only works with Double Quotes
+# 5. Escape characters
 puts
+puts "================================================================="
+puts "Escape Characters"
+puts "================================================================="
 # puts "Sun rises in the "East""
 puts "Sun rises in the \"East\""
 puts 'Sun rises in the \'East\''
     # Line Break \n
+puts
+puts "Line Break"
 puts "Add a line break\nright here "
     # Tab \t
+puts
+puts "Tab Indentation"
 puts "\tInserting a tab at the start"
 
-# String Comparisions
+# 6. String Comparisions
 puts
+puts "================================================================="
+puts "Strings Comparision"
+puts "================================================================="
 a = "Hello"
 b = "hello"
 puts a == b
@@ -62,12 +86,17 @@ puts "hello" < "help"
 
 puts 
 puts "A" < "a"
+# ASCII of A is 65
+# ASCII of a is 97
 
 puts 
 puts "Zebra" < "apple"
 
-# Concatenation of Strings
+# 7. Concatenation of Strings
 puts
+puts "================================================================="
+puts "Strings Concatenation"
+puts "================================================================="
 c = "Ruby "
 d = "Session"
 
