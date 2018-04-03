@@ -2,7 +2,7 @@
 # Alt + Shift + L
 # Length Method and Size Method
 name = "Ruby"
-puts "Length of name is #{name.length}"
+puts "Length of name is #{name.length}" # => 
 puts "Size of name is #{name.size}"
 puts "Class of name is #{name.class}"
 
