@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>011 Strings II</title>
+    </head>
+    <body>
+
+        <div style="background-color:#ffffaa" align = "center">
+            <script>
+                var c = '';
+                var opt = '';
+                var n = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+
+                var quiz = {"count": 5, "next": null, "previous": null, "results": [{"_class": "assessment", "id": 1185934, "assessment_type": "multiple-choice", "created": "2017-02-06T19:54:04Z", "prompt": {"feedbacks": ["", "", "", "Correct! The .clear method returns an empty string"], "question": "<p><code>\"This is a sentence\".clear</code>\u00a0</p>", "relatedLectureIds": ["6482396"], "answers": ["<p><code>[]</code>\u00a0</p>", "<p><code>\"clear\"</code>\u00a0</p>", "<p><code>nil</code>\u00a0</p>", "<p><code>\"\"</code>\u00a0</p>"]}, "correct_response": ["d"], "updated": "2017-02-06T19:54:04Z", "section": "", "question_plain": "\"This is a sentence\".clear", "related_lectures": [{"_class": "lecture", "id": 6482396, "title": "The .clear Method on a String", "created": "2017-02-05T03:05:36Z", "asset": {"_class": "asset", "id": 7717652, "asset_type": "Video", "title": "10-08-The-clear-Method-on-a-String.mp4", "created": "2017-02-04T01:21:51Z"}, "object_index": 135, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6482396"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185938, "assessment_type": "multiple-choice", "created": "2017-02-06T19:55:53Z", "prompt": {"feedbacks": ["", "", "Nope, watch out. We're splitting only by a lowercase \"s\"."], "question": "<p><code>\"Sally sells seashells by the seashore\".split(\"s\")</code>\u00a0</p>", "relatedLectureIds": ["6482376"], "answers": ["<p><code>[\"Sally\", \"sells\", \"seashells\", \"by\", \"the\", \"seashore\"]</code>\u00a0</p>", "<p><code>[\"Sally \", \"ell\", \" \", \"ea\", \"hell\", \" by the \", \"ea\", \"hore\"]</code>\u00a0</p>", "<p><code>[\"ally \", \"ell\", \" \", \"ea\", \"hell\", \" by the \", \"ea\", \"hore\"]</code>\u00a0</p>"]}, "correct_response": ["b"], "updated": "2017-02-06T19:55:53Z", "section": "", "question_plain": "\"Sally sells seashells by the seashore\".split(\"s\")", "related_lectures": [{"_class": "lecture", "id": 6482376, "title": "The .split Method on a String", "created": "2017-02-05T03:04:05Z", "asset": {"_class": "asset", "id": 7717668, "asset_type": "Video", "title": "10-01-The-split-Method-on-a-String.mp4", "created": "2017-02-04T01:21:51Z"}, "object_index": 128, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6482376"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185946, "assessment_type": "multiple-choice", "created": "2017-02-06T19:56:57Z", "prompt": {"feedbacks": ["", "", "", ""], "question": "<p><code>\"supercalifragilisticexpialidocious\".index(\"f\")</code>\u00a0</p>", "relatedLectureIds": ["6482384"], "answers": ["<p>8</p>", "<p>9</p>", "<p>10</p>", "<p><code>nil</code>\u00a0</p>"]}, "correct_response": ["b"], "updated": "2017-02-06T19:56:57Z", "section": "", "question_plain": "\"supercalifragilisticexpialidocious\".index(\"f\")", "related_lectures": [{"_class": "lecture", "id": 6482384, "title": "The .index and .rindex Methods on a String", "created": "2017-02-05T03:04:56Z", "asset": {"_class": "asset", "id": 7717662, "asset_type": "Video", "title": "10-05-The-index-and-rindex-Methods-on-a-String.mp4", "created": "2017-02-04T01:21:51Z"}, "object_index": 132, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6482384"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185948, "assessment_type": "multiple-choice", "created": "2017-02-06T19:58:19Z", "prompt": {"feedbacks": ["", "", "", ""], "question": "<p><code>[\"a\", \"b\", \"c\", \"d\", \"e\"].join(\"-\")</code>\u00a0</p>", "relatedLectureIds": ["6482380"], "answers": ["<p><code>\"-a-b-c-d-e\"</code>\u00a0</p>", "<p><code>\"a-b-c-d-e-\"</code>\u00a0</p>", "<p><code>\"a-b-c-d-e\"</code>\u00a0</p>", "<p><code>\"-a-b-c-de\"</code>\u00a0</p>"]}, "correct_response": ["c"], "updated": "2017-02-06T19:58:19Z", "section": "", "question_plain": "[\"a\", \"b\", \"c\", \"d\", \"e\"].join(\"-\")", "related_lectures": [{"_class": "lecture", "id": 6482380, "title": "The .join Method on an Array", "created": "2017-02-05T03:04:31Z", "asset": {"_class": "asset", "id": 7717664, "asset_type": "Video", "title": "10-03-The-join-Method-on-an-Array.mp4", "created": "2017-02-04T01:21:51Z"}, "object_index": 130, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6482380"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185952, "assessment_type": "multiple-choice", "created": "2017-02-06T19:59:21Z", "prompt": {"feedbacks": ["", "", "", ""], "question": "<p><code>\"leprechaun\".count(\"e\")</code>\u00a0</p>", "relatedLectureIds": ["6482382"], "answers": ["<p><code>nil</code>\u00a0</p>", "<p>0</p>", "<p>1</p>", "<p>2</p>"]}, "correct_response": ["d"], "updated": "2017-02-06T19:59:21Z", "section": "", "question_plain": "\"leprechaun\".count(\"e\")", "related_lectures": [{"_class": "lecture", "id": 6482382, "title": "The .count Method on a String", "created": "2017-02-05T03:04:44Z", "asset": {"_class": "asset", "id": 7717660, "asset_type": "Video", "title": "10-04-The-count-Method-on-a-String.mp4", "created": "2017-02-04T01:21:51Z"}, "object_index": 131, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6482382"}], "original_assessment_id": 0}]};
+
+                for (var i = 0; i < quiz.results.length; i++) {
+
+                    var question = '<font color="ff0000"><br><h3>Question-' + i + ': </h3> <b>' + quiz.results[i].prompt.question + '</b> <br>';
+
+                    for (var j = 0; j < quiz.results[i].prompt.answers.length; j++) {
+
+                        opt = opt.concat(quiz.results[i].prompt.answers[j] ? '<p style="cursor: pointer" onclick="this.style=\'font-weight: bold; color: #CE534D\'">' + n[j] + ': ' + quiz.results[i].prompt.answers[j].toString().replace(/,/g, '<br>') + '</p>' : '<br>');
+                    }
+                    var ans = quiz.results[i].correct_response ? '<p> <br> <input style="cursor: pointer" type="button" onclick="this.value=\'Answer is: ' + quiz.results[i].correct_response.toString() + '\'" value="Show Answer"></input> </p>' : '<br>';
+                    c = c.concat(question, opt, ans);
+                    opt = ''
+                    }
+                document.write(c);
+            </script>
+        </div>
+    </body>
+    </html>

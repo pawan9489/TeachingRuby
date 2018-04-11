@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>008 Range Objects</title>
+    </head>
+    <body>
+
+        <div style="background-color:#ffffaa" align = "center">
+            <script>
+                var c = '';
+                var opt = '';
+                var n = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+
+                var quiz = {"count": 3, "next": null, "previous": null, "results": [{"_class": "assessment", "id": 1185166, "assessment_type": "multiple-choice", "created": "2017-02-05T20:45:38Z", "prompt": {"feedbacks": ["", "That's correct!", "", ""], "question": "<p>What does a Range object represent?</p>", "relatedLectureIds": ["6481772"], "answers": ["<p>A number that can only be positive.</p>", "<p>An interval of numbers or characters.</p>", "<p>A string that can only have a length greater than 5 characters.</p>", "<p>A dictionary-like structure for storing key-value pairs</p>"]}, "correct_response": ["b"], "updated": "2017-02-05T20:45:38Z", "section": "", "question_plain": "What does a Range object represent?", "related_lectures": [{"_class": "lecture", "id": 6481772, "title": "Intro to Ranges", "created": "2017-02-04T23:23:57Z", "asset": {"_class": "asset", "id": 7717290, "asset_type": "Video", "title": "07-01-Intro-to-Ranges.mp4", "created": "2017-02-04T00:22:09Z"}, "object_index": 80, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6481772"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185170, "assessment_type": "multiple-choice", "created": "2017-02-05T20:48:08Z", "prompt": {"feedbacks": ["", "", ""], "question": "<p>What is the difference between <code>1..4</code>\u00a0 and <code>1...4</code>\u00a0?</p>", "relatedLectureIds": ["6481772"], "answers": ["<p>The two are identical\u00a0Range objects.</p>", "<p>The first option\u00a0includes\u00a0the numbers 1, 2,\u00a03 and 4 while the second option includes the numbers 1, 2, and 3.</p>", "<p>The first option\u00a0includes\u00a0the numbers 1, 2 and 3 while the second option includes the numbers 1, 2, 3 and 4.</p>"]}, "correct_response": ["b"], "updated": "2017-02-05T20:48:08Z", "section": "", "question_plain": "What is the difference between 1..4\u00a0 and 1...4\u00a0?", "related_lectures": [{"_class": "lecture", "id": 6481772, "title": "Intro to Ranges", "created": "2017-02-04T23:23:57Z", "asset": {"_class": "asset", "id": 7717290, "asset_type": "Video", "title": "07-01-Intro-to-Ranges.mp4", "created": "2017-02-04T00:22:09Z"}, "object_index": 80, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6481772"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185172, "assessment_type": "multiple-choice", "created": "2017-02-05T20:49:50Z", "prompt": {"feedbacks": ["Nope, watch out for the ... syntax. 6 is not included in the Range.", "Nope, watch out for the ... syntax. 6 is not included in the Range.", "Correct, it will be a random number between 5 and 5, which will always be 5."], "relatedLectureIds": ["6481772"], "question": "<p>What will be the return value of <code>rand(5...6)</code>\u00a0?</p>", "answers": ["<p>Either 5 or 6</p>", "<p>6</p>", "<p>5</p>"]}, "correct_response": ["c"], "updated": "2017-02-05T20:49:50Z", "section": "", "question_plain": "What will be the return value of rand(5...6)\u00a0?", "related_lectures": [{"_class": "lecture", "id": 6481772, "title": "Intro to Ranges", "created": "2017-02-04T23:23:57Z", "asset": {"_class": "asset", "id": 7717290, "asset_type": "Video", "title": "07-01-Intro-to-Ranges.mp4", "created": "2017-02-04T00:22:09Z"}, "object_index": 80, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6481772"}], "original_assessment_id": 0}]};
+
+                for (var i = 0; i < quiz.results.length; i++) {
+
+                    var question = '<font color="ff0000"><br><h3>Question-' + i + ': </h3> <b>' + quiz.results[i].prompt.question + '</b> <br>';
+
+                    for (var j = 0; j < quiz.results[i].prompt.answers.length; j++) {
+
+                        opt = opt.concat(quiz.results[i].prompt.answers[j] ? '<p style="cursor: pointer" onclick="this.style=\'font-weight: bold; color: #CE534D\'">' + n[j] + ': ' + quiz.results[i].prompt.answers[j].toString().replace(/,/g, '<br>') + '</p>' : '<br>');
+                    }
+                    var ans = quiz.results[i].correct_response ? '<p> <br> <input style="cursor: pointer" type="button" onclick="this.value=\'Answer is: ' + quiz.results[i].correct_response.toString() + '\'" value="Show Answer"></input> </p>' : '<br>';
+                    c = c.concat(question, opt, ans);
+                    opt = ''
+                    }
+                document.write(c);
+            </script>
+        </div>
+    </body>
+    </html>

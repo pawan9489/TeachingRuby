@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>004 Object Methods Parameters and Arguments Float Methods and Blocks</title>
+        <style>
+                p {
+                    display: inline;
+                    margin: 10px;
+                }
+        </style>
+    </head>
+    <body>
+
+        <div style="background-color:#ffffaa" align = "center">
+            <script>
+                var c = '';
+                var opt = '';
+                var n = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
+
+                var quiz = {"count": 5, "next": null, "previous": null, "results": [{"_class": "assessment", "id": 1185052, "assessment_type": "multiple-choice", "created": "2017-02-05T17:00:01Z", "prompt": {"relatedLectureIds": ["6477664"], "answers": ["<p>A verbal confrontation that attempts to coerce the method to perform its duties</p>", "<p>An integer that represents the number of seconds the method should wait before executing</p>", "<p>An input to a method that the method uses in its body</p>"], "question": "<p>What is an argument to a method?</p>", "feedbacks": ["", "", ""]}, "correct_response": ["c"], "updated": "2017-02-05T17:00:01Z", "section": "", "question_plain": "What is an argument to a method?", "related_lectures": [{"_class": "lecture", "id": 6477664, "title": "Intro to Object Methods with Parameters (The .between? Predicate Method)", "created": "2017-02-04T03:56:49Z", "asset": {"_class": "asset", "id": 7716818, "asset_type": "Video", "title": "03-09-Intro-to-Object-Methods-with-Parameters(The_.between?_Method).mp4", "created": "2017-02-03T22:57:40Z"}, "object_index": 33, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6477664"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185054, "assessment_type": "multiple-choice", "created": "2017-02-05T17:00:57Z", "prompt": {"relatedLectureIds": ["6477664"], "question": "<p>What symbol concludes all\u00a0predicate /\u00a0Boolean methods?</p>", "feedbacks": ["", "", "", "Correct!"], "answers": ["<p>!</p>", "<p>=</p>", "<p>^</p>", "<p>?</p>"]}, "correct_response": ["d"], "updated": "2017-02-05T17:00:57Z", "section": "", "question_plain": "What symbol concludes all\u00a0predicate /\u00a0Boolean methods?", "related_lectures": [{"_class": "lecture", "id": 6477664, "title": "Intro to Object Methods with Parameters (The .between? Predicate Method)", "created": "2017-02-04T03:56:49Z", "asset": {"_class": "asset", "id": 7716818, "asset_type": "Video", "title": "03-09-Intro-to-Object-Methods-with-Parameters(The_.between?_Method).mp4", "created": "2017-02-03T22:57:40Z"}, "object_index": 33, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6477664"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185058, "assessment_type": "multiple-choice", "created": "2017-02-05T17:08:32Z", "prompt": {"relatedLectureIds": ["6477668"], "answers": ["<p><code>a == 5</code>\u00a0</p>", "<p><code>a *= 5</code>\u00a0</p>", "<p><code>a =*= 5</code>\u00a0</p>", "<p><code>a != 5</code>\u00a0</p>"], "question": "<p>What is the shorthand syntax for the code below?</p>\n\n<p><code>a =  a * 5</code>\u00a0</p>", "feedbacks": ["", "", "", ""]}, "correct_response": ["b"], "updated": "2017-02-05T17:08:32Z", "section": "", "question_plain": "What is the shorthand syntax for the code below?\n\na =  a * 5", "related_lectures": [{"_class": "lecture", "id": 6477668, "title": "Assignment Operators", "created": "2017-02-04T03:58:17Z", "asset": {"_class": "asset", "id": 7716820, "asset_type": "Video", "title": "03-11-Assignment-Operators.mp4", "created": "2017-02-03T22:57:40Z"}, "object_index": 35, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6477668"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185062, "assessment_type": "multiple-choice", "created": "2017-02-05T17:10:36Z", "prompt": {"relatedLectureIds": ["6477670"], "question": "<p>What does the <code>.times</code>\u00a0method do?</p>", "feedbacks": ["", "", "", ""], "answers": ["<p>Multiple a number by another.</p>", "<p>Calculate the difference between two times.</p>", "<p>Perform a specific operation a number of times.</p>", "<p>Multiply a number by itself a number of times.</p>"]}, "correct_response": ["c"], "updated": "2017-02-05T17:10:36Z", "section": "", "question_plain": "What does the .times\u00a0method do?", "related_lectures": [{"_class": "lecture", "id": 6477670, "title": "Introduction to Blocks with the .times Method", "created": "2017-02-04T03:59:29Z", "asset": {"_class": "asset", "id": 7716812, "asset_type": "Video", "title": "03-12-Introduction-to-Blocks-with-the-.times-Method.mp4", "created": "2017-02-03T22:57:40Z"}, "object_index": 36, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6477670"}], "original_assessment_id": 0}, {"_class": "assessment", "id": 1185064, "assessment_type": "multiple-choice", "created": "2017-02-05T17:15:50Z", "prompt": {"relatedLectureIds": ["6477670"], "answers": ["<p>The block</p>", "<p>The argument</p>", "<p>The parameter</p>", "<p>The Boolean</p>"], "question": "<p>What do we call the special\u00a0attachment to a method such as <code>.times</code>\u00a0or <code>.upto</code>\u00a0that clarifies what the method does on every iteration?</p>", "feedbacks": ["That's correct!", "Close, but not quite! The argument is passed to the method but what is attached after the argument to clarify how the method operators?", "Try again!", ""]}, "correct_response": ["a"], "updated": "2017-02-05T17:15:50Z", "section": "", "question_plain": "What do we call the special\u00a0attachment to a method such as .times\u00a0or .upto\u00a0that clarifies what the method does on every iteration?", "related_lectures": [{"_class": "lecture", "id": 6477670, "title": "Introduction to Blocks with the .times Method", "created": "2017-02-04T03:59:29Z", "asset": {"_class": "asset", "id": 7716812, "asset_type": "Video", "title": "03-12-Introduction-to-Blocks-with-the-.times-Method.mp4", "created": "2017-02-03T22:57:40Z"}, "object_index": 36, "url": "/learn-to-code-with-ruby-lang/learn/v4/t/lecture/6477670"}], "original_assessment_id": 0}]};
+
+                for (var i = 0; i < quiz.results.length; i++) {
+
+                    var question = '<font color="ff0000"><br><h3>Question-' + i + ': </h3> <b>' + quiz.results[i].prompt.question + '</b> <br>';
+
+                    for (var j = 0; j < quiz.results[i].prompt.answers.length; j++) {
+
+                        opt = opt.concat(quiz.results[i].prompt.answers[j] ? '<p style="cursor: pointer" onclick="this.style=\'font-weight: bold; color: #CE534D\'">' + n[j] + ': ' + quiz.results[i].prompt.answers[j].toString().replace(/,/g, '<br>') + '</p>' : '<br>');
+                    }
+                    var ans = quiz.results[i].correct_response ? '<p> <br> <input style="cursor: pointer" type="button" onclick="this.value=\'Answer is: ' + quiz.results[i].correct_response.toString() + '\'" value="Show Answer"></input> </p>' : '<br>';
+                    c = c.concat(question, opt, ans);
+                    opt = ''
+                    }
+                document.write(c);
+            </script>
+        </div>
+    </body>
+    </html>
