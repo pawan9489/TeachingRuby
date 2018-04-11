@@ -6,4 +6,4 @@ Ruby Training with Functional and Object Oriented Approach.
 ## Getting Started
 - To get a feel of Ruby programming Language head over to the presentations along with the Demo Code. 
 - Quizzes for your better understanding.
-- Assignments for your stronger understanding.
+- Assess your understanding by solving Assignments.
