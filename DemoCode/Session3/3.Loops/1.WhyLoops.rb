@@ -49,3 +49,19 @@ until i > 9
     i += 1
 end
 p "Value of i after completing the While loop is #{i}"
+puts
+# Looping through an Array of elements and print them
+
+x = ["apple", "orange", "pear", "strawberry", "Banana"]
+i = 0
+while i < x.length
+    puts "At position #{i} the fruit is #{x[i]}" 
+    i += 1
+end
+
+puts
+i = 0
+until i > x.length - 1
+    puts "At position #{i} the fruit is #{x[i]}" 
+    i += 1
+end
