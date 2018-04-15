@@ -5,7 +5,7 @@
         and applies the given block to each element in the collection.   
 =end
 
-x = ["apple", "orange", "pear", "strawberry", "Banana"]
+x = ["apple", "orange", "pear", "strawberry", "banana"]
 
 x.each {|fruit| puts "I like #{fruit.capitalize}"}
 

@@ -18,3 +18,6 @@ p sentence.split(/i/)
 puts
 # Get all the characters
 p sentence.split('')
+p sentence.chars
+
+
