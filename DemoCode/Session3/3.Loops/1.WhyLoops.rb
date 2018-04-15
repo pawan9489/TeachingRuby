@@ -15,7 +15,6 @@
     each_slice
     each_cons
     each_with_index
-    ranges
 
 =end
 

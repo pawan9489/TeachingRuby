@@ -13,6 +13,3 @@ end
 make_phone_call(987654321)
 make_phone_call(987654321, "+45")
 
-# Key Word Args
-
-# Variable Args
