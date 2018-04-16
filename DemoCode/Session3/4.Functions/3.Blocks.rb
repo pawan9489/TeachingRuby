@@ -4,6 +4,7 @@
           - In "C" they call it Function Pointers
           - In "Java" they implement this using Anonymous Inner Classes
           - In "C#" they call it delegates
+          - In "Javascript" they call it Callbacks.
       A collection or Chunk of code used to Invoke from Other Functions
       References to Functions
       
