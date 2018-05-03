@@ -23,3 +23,5 @@
 10. Write a Function that takes an array and a delemeter and returns a 
         result by concatinating the strings using the delemeter.
 11. Implement Squeeze method on string using Loops and conditionals
+11. Implement Each method using Loops and conditionals
+11. Implement EachWithIndex method using Loops and conditionals
