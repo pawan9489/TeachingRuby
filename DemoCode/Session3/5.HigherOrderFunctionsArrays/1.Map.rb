@@ -1,6 +1,6 @@
 =begin
     Map || Collect
-    Retuns a new array that can be 
+    Retuns a new array in which each element is mapped with a function
 =end
 
 farenhiet_temperatures = [105, 88, -65, 20, 0]

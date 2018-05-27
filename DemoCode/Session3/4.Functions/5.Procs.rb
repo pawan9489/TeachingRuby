@@ -1,6 +1,7 @@
 =begin
     Procs -> Objects that store the blocks 
         - so the blocks can be passed as a variables
+        - using procs, a function can take multiple blocks
 =end
 
 a = [1, 2, 3, 4, 5]
@@ -30,6 +31,10 @@ b.each(&squares)
 
 puts "\n----------------------------------------------"
 
+# Can be called with out even passing to a function
+puts "cubes.call(5) #{cubes.call(5)}"
+
+puts "\n----------------------------------------------"
 
 currencies = [10, 20, 40]
 
