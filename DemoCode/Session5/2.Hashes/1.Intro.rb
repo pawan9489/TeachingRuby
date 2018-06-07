@@ -44,3 +44,7 @@ puts
 p ipl_roster["rohit sharma"]
 puts
 p ipl_roster_refined.fetch("Mumbai Indians")
+puts 
+# p ipl_roster.fetch("rohit sharma")
+puts
+p ipl_roster.fetch("rohit sharma", "Something Else")

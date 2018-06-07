@@ -68,3 +68,9 @@ p "Ruby Language".to_sym.class
 puts
 p "Ruby_Language".to_sym
 p "Ruby_Language".to_sym.class
+
+puts
+puts "Environment Variables"
+pp ENV
+
+
